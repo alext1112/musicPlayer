@@ -42,7 +42,8 @@ h1 {
 
 .img-container::after {
   content: '';
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
+  border: 1px rgb(223, 156, 11) solid;
   border-radius: 50%;
   position: absolute;
   bottom: 100%;
@@ -60,7 +61,7 @@ h1 {
   position: absolute;
   bottom: 0;
   left: 0;
-  animation: rotate 3s linear infinite;
+  animation: rotate 4s linear infinite;
   animation-play-state: paused;
 }
 
